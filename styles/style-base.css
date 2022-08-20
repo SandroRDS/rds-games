@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar
+{
+  background-color: rgb(51, 39, 63);
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #554c32;
+  border-radius: 20px;
+}
+
+header
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 2.5em 1em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='23.09' height='40' viewBox='0 0 34.64101615137755 60' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(35, 78, 82,1)'/%3E%3Cpath d='M51.96 30L51.96 50L34.64 60L34.64 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.32 30L17.32 50L0 60L0 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 0L34.64 20L17.32 30L17.32 10z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 60L34.64 80L17.32 90L17.32 70z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 60L17.32 50L17.32 30L34.64 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M0 60L-17.32 50L-17.32 30L0 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 30L0 20L0 0L17.32 10z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 90L0 80L0 60L17.32 70z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M32.91 41L32.91 39L34.64 38L34.64 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M-1.73 41L-1.73 39L0 38L0 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M15.59 11L15.59 9L17.32 8L17.32 10z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M15.59 71L15.59 69L17.32 68L17.32 70z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 38L36.37 39L36.37 41L34.64 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M0 38L1.73 39L1.73 41L0 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 8L19.05 9L19.05 11L17.32 10z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 68L19.05 69L19.05 71L17.32 70z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M36.37 41L34.64 42L32.91 41L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M1.73 41L0 42L-1.73 41L0 40z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M19.05 11L17.32 12L15.59 11L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M19.05 71L17.32 72L15.59 71L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 40.1L34.55 40.05L34.55 39.95L34.64 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M0 40.1L-0.09 40.05L-0.09 39.95L0 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 10.1L17.23 10.05L17.23 9.95L17.32 10z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 70.1L17.23 70.05L17.23 69.95L17.32 70z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M34.73 39.95L34.73 40.05L34.64 40.1L34.64 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M0.09 39.95L0.09 40.05L0 40.1L0 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.41 9.95L17.41 10.05L17.32 10.1L17.32 10z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.41 69.95L17.41 70.05L17.32 70.1L17.32 70z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.55 39.95L34.64 39.9L34.73 39.95L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M-0.09 39.95L0 39.9L0.09 39.95L0 40z' stroke-linejoin='miter' background='true' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.23 9.95L17.32 9.9L17.41 9.95L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.23 69.95L17.32 69.9L17.41 69.95L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(60, 54, 107,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "), linear-gradient(to right, #485781, rgb(46, 59, 94), rgb(72, 87, 129));
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header h1
+{
+  text-shadow: 3px 4px rgb(70, 69, 69);
+  color: rgb(233, 140, 0);
+  border: 1px solid rgb(37, 35, 35);
+  position: relative;
+  display: inline-block;
+  padding: 0.4em;
+  background-color: #70727c;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+header h1:hover
+{
+  transform: scale(1.1);
+}
+
+header h1:active
+{
+  transform: scale(1);
+}
+
+header h1:before
+{
+  background: #4e5057;
+  content: '';
+
+  /* Position */
+  top: 1rem;
+  left: 0px;
+  position: absolute;
+  transform: translate(-100%, 0) skewY(-45deg);
+  transform-origin: left top;
+
+  /* Size */
+  height: 100%;
+  width: 1rem;
+}
+
+header h1::after 
+{
+  background: rgb(37, 35, 35);
+  content: '';
+
+  /* Position */
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  transform: translate(0, 100%) skewX(-50deg);
+  transform-origin: left top;
+
+  /* Size */
+  height: 1rem;
+  width: 100%;
+}
+
+nav
+{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, #234E52, #276749, #234E52);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav li
+{
+  font-family: 'Silkscreen';
+  font-size: 1.4em;
+  display: inline-block;
+  color: rgb(233, 233, 233);
+  padding: 1.5em;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  transition: all 300ms;
+}
+
+nav li:hover
+{
+  background-color: #02310e41;
+  color: rgb(255, 166, 0);
+  border-bottom: 5px solid #05b834;
+}
+
+footer
+{
+  width: 100%;
+  background: url('../img/fundo.png') rgb(17, 17, 17);
+  padding: 10em;
+  box-sizing: border-box;
+  position: relative;
+}
+
+footer h1
+{
+  padding: 0.5em 0.5em;
+  background: radial-gradient(#5a5a5a, #525151, #2b2b2b);
+  font-size: 3em;
+  text-shadow: 3px 4px rgb(122, 122, 122);
+  font-family: "Silkscreen";
+  color: rgb(233, 233, 233);
+  text-transform: uppercase;
+  border: 5px solid rgb(27, 27, 27);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+footer #redes
+{
+  text-align: center;
+  margin-top: 2em;
+}
+
+footer #redes .logo:first-child
+{
+  margin-right: 1em;
+}
+
+footer .logo
+{
+  display: inline-block;
+  background-color: #4e5057;
+  padding: 0.5em;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: transform 500ms;
+  border: 3px solid transparent;
+}
+
+footer .logo:nth-child(2)
+{
+  border-radius: 15px;
+}
+
+footer .logo:hover
+{
+  transform: scale(1.2);
+  border: 3px solid rgb(34, 34, 34);
+}
+
+footer #copyright
+{
+  color: rgb(233, 233, 233);
+  font-size: 0.7em;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+}

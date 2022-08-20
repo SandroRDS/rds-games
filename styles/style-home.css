@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#home
+{
+  font-family: 'Silkscreen';
+  width: 100%;
+  background: url(../img/hacker.gif), black;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#home .container
+{
+  padding: 28em 10em;
+  background: rgba(0, 0, 0, 0.692);
+}
+
+section h2
+{
+  font-size: 2.5em;
+  text-shadow: 3px 4px #6f7a9c;
+  text-align: center;
+  color: rgb(233, 233, 233);
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  font-family: 'Silkscreen';
+}
+
+@keyframes float
+{
+  0%
+  {
+    transform: translatey(0px);
+  }
+
+  50%
+  {
+    transform: translatey(-30px);
+  }
+
+  100%
+  {
+    transform: translatey(0px);
+  }
+}
+
+#home #banner
+{
+  
+  display: block;
+  margin: 2em auto;
+}
+
+#projetos
+{
+  background: rgb(8, 3, 22);
+  padding: 20em 10em;
+}
+
+.card {
+  font-family: cursive;
+  width: 90%;
+  height: 600px;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  margin: 5em auto;
+  gap: 5px;
+  padding: .4em;
+  position: relative;
+}
+
+.card .itens {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 800ms;
+  background: #212121;
+  border: 1px solid #a25aff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card .itens:hover {
+  flex: 4;
+  border: 1px solid #79d1fa;
+  
+}
+
+.card .itens .gameplay
+{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  opacity: 0;
+  transition: all 800ms;
+}
+
+.card .itens .gameplay img
+{
+  width: 100%;
+  position: relative;
+}
+
+.itens:hover .gameplay::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 36, 36, 0.75);
+}
+
+.card .itens:hover .gameplay
+{
+  display: block;
+}
+
+
+.card .itens h3 {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #8885db;
+  letter-spacing: .1em;
+  font-family: "Silkscreen";
+  font-size: 1.2em;
+}
+
+.card .itens:hover h3 {
+  transform: rotate(0) translatey(-12em);
+  font-size: 1.4em;
+}
+
+.card .projeto_informacoes
+{
+  font-family: cursive;
+  color: rgb(233, 233, 233);
+  position: absolute;
+  top: 4em;
+  text-align: left;
+  margin: 1.5em 0;
+  box-sizing: border-box;
+  width: 350px;
+  opacity: 0;
+  transition: all 350ms;
+  font-size: 1rem;
+}
+
+.projeto_informacoes h4
+{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.projeto_informacoes p
+{
+  padding: 1em 1em;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.projeto_informacoes .tecnologias
+{
+  position: absolute;
+  top: 15em;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.tecnologias p
+{
+  text-align: center; 
+}
+
+.card .jogar
+{
+  font-family: 'Silkscreen';
+  font-size: 1.3em;
+  color: rgb(233, 233, 233);
+  display: block;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 3px solid #a25aff;
+  background-color: #212121;
+  transition: all 200ms;
+  position: absolute;
+  bottom: 1em;
+}
+
+.card .jogar:hover
+{
+  transform: scale(1.2);
+  background-color: #231f42;
+  color: rgb(233, 152, 2);
+  box-shadow: -0.2em 0.2em 1px rgb(75, 35, 95);
+}
+
+.card .itens:hover .jogar
+{
+  width: 60%;
+}
+
+#sobre
+{
+  width: 100%;
+  padding: 20em 10em;
+  background-color: #26024f;
+  box-sizing: border-box;
+  transition: background-color 3s;
+  font-family: "Silkscreen", cursive;
+}
+
+#foto_perfil
+{
+  display: block;
+  margin: 2em auto;
+  width: 20%;
+  border-radius: 20px;
+  border: 5px solid rgb(155, 161, 163);
+  transition: all 500ms;
+}
+
+#foto_perfil:hover
+{
+  transform: scale(1.2);
+  box-shadow: -15px 15px 10px #47156c;
+}
+
+#sobre .informacoes_pessoais
+{
+  width: 60%;
+  margin: 1em auto;
+  color: rgb(233, 233, 233);
+  font-size: 1.2em;
+}
+
+.informacoes_pessoais li
+{
+  padding: 1em;
+}
+
+.informacoes_pessoais li p
+{
+  padding: 1.3em;
+  background-color: #212121;
+  border: 3px solid #2e2e2e;
+  border-radius: 20px;
+  margin-top: 1em;
+  font-family: 'Josefin Sans';
+}
+
+.informacoes_pessoais li p:nth-child(6)
+{
+  font-style: italic;
+}
+
+.informacoes_pessoais a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.informacoes_pessoais a:hover
+{
+  color: purple;
+}
+
+@media (max-width: 1400px)
+{
+  .card .projeto_informacoes
+  {
+    font-size: 12px;
+  }
+}
