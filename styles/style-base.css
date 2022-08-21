@@ -104,16 +104,40 @@ nav li
   color: rgb(233, 233, 233);
   padding: 1.5em;
   cursor: pointer;
-  border-bottom: 5px solid transparent;
   transition: all 300ms;
+  position: relative;
 }
 
 nav li:hover
 {
   background-color: #02310e41;
   color: rgb(255, 166, 0);
-  border-bottom: 5px solid #05b834;
 }
+
+nav li::after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #46a165;
+  transition: all 300ms;
+  transform: rotateY(90deg);
+}
+
+nav li:hover:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  transform: rotateY(0deg);
+}
+
 
 footer
 {
