@@ -148,7 +148,7 @@ section h2
   font-family: 'Josefin Sans';
   color: rgb(233, 233, 233);
   position: absolute;
-  top: 4em;
+  top: 2.5em;
   text-align: left;
   margin: 1.5em 0;
   box-sizing: border-box;
@@ -166,7 +166,7 @@ section h2
 
 .projeto_informacoes p
 {
-  padding: 1em 1em;
+  padding: 1em 0em;
   font-size: 1.1em;
   text-align: justify;
 }
