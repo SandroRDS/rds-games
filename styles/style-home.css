@@ -25,6 +25,7 @@ section h2
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;
   font-family: 'Silkscreen';
+  cursor: default;
 }
 
 @keyframes float
